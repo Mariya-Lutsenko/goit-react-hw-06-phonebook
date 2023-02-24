@@ -1,4 +1,3 @@
-// import { useState, useEffect } from 'react';
 import css from './App.module.css';
 import ContactForm from './ContactForm';
 import ContactList from './ContactList';
@@ -43,9 +42,6 @@ function App() {
     return Boolean(result);
   };
 
-  // useEffect(() => {
-  //   localStorage.setItem('contacts', JSON.stringify(contacts));
-  // }, [contacts]);
 
   const changeFilter = event => {
     dispatch(setFilter(event.currentTarget.value.trim()));
