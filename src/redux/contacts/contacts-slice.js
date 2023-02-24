@@ -25,6 +25,6 @@ const contactsSlice = createSlice({
 
 export const { addContact, removeContact } = contactsSlice.actions;
 // console.log(addContact.type);
-export default contactsSlice.reducer;
+export const contactsReducer = contactsSlice.reducer;
 
 // payload забираємо з action
