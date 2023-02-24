@@ -42,7 +42,6 @@ function App() {
     return Boolean(result);
   };
 
-
   const changeFilter = event => {
     dispatch(setFilter(event.currentTarget.value.trim()));
   };
