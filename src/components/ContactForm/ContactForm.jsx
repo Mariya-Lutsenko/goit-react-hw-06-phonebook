@@ -39,7 +39,7 @@ const ContactForm = () => {
       Notify.failure(`${number} is alredy in contacts`);
       return;
     }
-    
+
     onAddContact({ name, number });
     setName('');
     setNumber('');
